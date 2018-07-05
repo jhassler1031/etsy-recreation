@@ -5,3 +5,39 @@
 img {
   width: 100%;
 }
+
+/* For sidebar ===============================================================*/
+.placeholder {
+  width: 100%;
+  background-color: lightgray;
+  height: 100%;
+  padding: 20px;
+  border: 2px solid darkgray;
+}
+
+/* For tiles =================================================================*/
+.tile-img {
+  /* max-width: 125px; */
+}
+
+.tile {
+  padding-right: : 0;
+  padding-left: 0;
+}
+
+.tile h1 {
+  font-size: 1.2rem;
+  color: #737373;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+.tile .shop-name {
+  font-size: .8rem;
+}
+
+.tile .price {
+  font-size: 1.2rem;
+  color: black;
+}
