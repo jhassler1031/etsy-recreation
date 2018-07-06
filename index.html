@@ -30,7 +30,7 @@
     <!-- Template for Tiles -->
     <script id="tile-template" type="text/x-handlebars-template">
       {{#results}}
-      <a href={{url}} class="col-4 tile">
+      <a href={{url}} class="col-4 tile" target="_blank">
         <div class="tile-img">
           {{#if Images.0.url_170x135}}
           <img src={{Images.0.url_170x135}} alt="Image of product">
@@ -50,12 +50,7 @@
       {{/results}}
     </script>
 
-    <!-- Template for sidebar tags -->
-    <script id="sidebar-template" type="text/x-handlebars-template">
-      {{#results}}
-        {{#tags}}
-          <a href="{{}}"></a>
-    </script>
+
     <!-- bring in handlebars -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
     <!-- bring in jquery -->
