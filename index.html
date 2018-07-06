@@ -12,8 +12,8 @@
       <div class="row no-gutters main-row">
         <!-- Column for sidebar =============================================-->
         <div class="col-3">
-          <div class="placeholder">
-            <p>SideBar here</p>
+          <div class="side-bar">
+
           </div>
         </div>
 
@@ -26,7 +26,8 @@
       </div>
     </div>
 <a href=""></a>
-    <!-- Handlebar template =================================================-->
+    <!-- Handlebar templates ================================================-->
+    <!-- Template for Tiles -->
     <script id="tile-template" type="text/x-handlebars-template">
       {{#results}}
       <a href={{url}} class="col-4 tile">
@@ -47,6 +48,13 @@
         <p class="price">${{price}}</p>
       </a>
       {{/results}}
+    </script>
+
+    <!-- Template for sidebar tags -->
+    <script id="sidebar-template" type="text/x-handlebars-template">
+      {{#results}}
+        {{#tags}}
+          <a href="{{}}"></a>
     </script>
     <!-- bring in handlebars -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>

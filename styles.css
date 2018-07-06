@@ -16,7 +16,7 @@ img {
 }
 
 /* For sidebar ===============================================================*/
-.placeholder {
+.side-bar {
   height: 100%;
   margin-right: 30px;
   border: 1px solid lightgray;
@@ -26,9 +26,12 @@ img {
 a.tile {
   width: 250px;
   height: 330px;
-  /* padding-right: 0;
-  padding-left: 0; */
   padding: 5px;
+  text-decoration: none;
+}
+
+a.tile:hover {
+  border: 1px ridge white;
 }
 
 .tile h1 {
@@ -46,10 +49,6 @@ a.tile {
   overflow: hidden;
   color: darkgray;
 }
-
-/* .tile .shop-name {
-  font-size: .8rem;
-} */
 
 .tile .price {
   font-size: 1rem;
